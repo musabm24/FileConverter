@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020817;
+    margin: 0;
+    padding: 0;
+    color: #ababab;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #020817;
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-right .btn {
+    display: flex;
+    align-items: center; 
+    background-color: transparent;  
+    border: 1px solid #ababab;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ababab;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.header-right .btn:hover {
+    background-color: #ababab;
+    color: #020817;
+}
+
+.header-right .btn i {
+    margin-right: 8px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.drop-area {
+    border: 2px dashed #ababab;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.drop-area:hover {
+    background-color: #1a1a2e;
+}
+
+.drop-area p {
+    color: #ababab;
+}
+
+select {
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ababab;
+    background-color: #1a1a2e;
+    color: #ababab;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7d818a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #373c49;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ababab;
+}
+
+.download-link {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-link:hover {
+    background-color: wheat;
+}
